@@ -1,0 +1,30 @@
+:root {
+  --background-color: #fff;
+  --text-color: #555;
+  --title-color: #000;
+}
+.dark-thema {
+  --background-color: #000;
+  --text-color: #999;
+  --title-color: #fff;
+}
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+  transition: background 0.8s, color 0.8s;
+}
+.toggle-btn {
+  background: #edae0d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.toggle-btn img {
+  width: 25px;
+  margin-left: 10px;
+}
